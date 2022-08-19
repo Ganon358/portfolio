@@ -1,3 +1,13 @@
-.menu >p{
-    size:0.5rem;
+.titre{
+    text-align: center;
 }
+
+.conteneurmenu{
+    border-radius:18px;
+    margin: 0rem 0rem 9rem 0rem;
+    height:3.2rem;
+    width:40rem;
+    
+    
+}
+
