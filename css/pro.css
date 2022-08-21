@@ -8,12 +8,15 @@
 }
 
 .lycée{
-    background-color: red;
+    background-color: rgb(0, 179, 255);
     width: 500px;
+    border-radius: 10px;
 }
 
 .ynov> img{
-    width:500px;
+    width:400px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .ynov> h2{
@@ -22,12 +25,15 @@
 }
 
 .ynov{
-    background-color: blue;
+    background-color:rgb(0, 179, 255);
     width: 500px;
+    border-radius: 10px;
 }
 
 .fnac> img{
-    width:500px;
+    width:400px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .fnac> h2{
@@ -37,4 +43,12 @@
 
 .fnac{
     width: 500px;
+    background-color: rgb(0, 179, 255);
+    border-radius: 10px;
+}
+
+.projet{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
 }
