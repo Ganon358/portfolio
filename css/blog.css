@@ -22,3 +22,10 @@
 .Bjarne>a{
     text-decoration: none;
 }
+
+.blog{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
