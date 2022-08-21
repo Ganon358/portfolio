@@ -1,0 +1,40 @@
+.lycée> img{
+    width:500px;
+}
+
+.lycée> h2{
+    width: 500px;
+    text-align: center;
+}
+
+.lycée{
+    background-color: red;
+    width: 500px;
+}
+
+.ynov> img{
+    width:500px;
+}
+
+.ynov> h2{
+    width: 500px;
+    text-align: center;
+}
+
+.ynov{
+    background-color: blue;
+    width: 500px;
+}
+
+.fnac> img{
+    width:500px;
+}
+
+.fnac> h2{
+    width: 500px;
+    text-align: center;
+}
+
+.fnac{
+    width: 500px;
+}
