@@ -1,0 +1,73 @@
+.bio> img{
+    width:400px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.bio> h2{
+    width: 500px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.bio{
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bio>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.bio>p{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.competence{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.competence2{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.python{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.Ccc{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.Ccc>img{
+    width: 300px;
+}
+
+.HTML{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.HTML>img{
+    width: 570px;
+}
