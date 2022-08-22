@@ -19,3 +19,14 @@ body{
     text-decoration: none;
     color: black;
 }
+
+.image>img{
+    width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: white;
+}
