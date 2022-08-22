@@ -44,6 +44,16 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 30px;
+    justify-content: space-around;
+}
+
+.competence3{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: space-around;
 }
 
 .python{
@@ -69,5 +79,37 @@
 }
 
 .HTML>img{
+    width: 570px;
+}
+
+
+.golang{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.golang>img{
+    width: 570px;
+}
+
+
+.js{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.js>img{
+    width: 570px;
+}
+
+.Cc{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+}
+
+.Cc>img{
     width: 570px;
 }
