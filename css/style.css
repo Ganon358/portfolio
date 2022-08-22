@@ -38,3 +38,8 @@ h1{
 .menu{
     position: fixed;
 }
+
+.button{
+    background-color: blue;
+    width: 10px;
+}
