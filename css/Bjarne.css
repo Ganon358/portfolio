@@ -6,11 +6,12 @@
 
 .Bjarne> h2{
     width: 500px;
+    margin-left: 10px;
 }
 
 .Bjarne{
     width: 1000px;
-    background-color: rgb(0, 179, 255);
+    background-color: white;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -19,4 +20,8 @@
 
 .Bjarne>h1{
     text-align: center;
+    margin-bottom: 30px;
+}
+.Bjarne>p{
+    margin-left: 10px;
 }
