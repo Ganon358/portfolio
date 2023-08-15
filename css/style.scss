@@ -1,0 +1,132 @@
+body{
+    background-image: url("../img/fonddecran.png");
+    background-repeat: no-repeat;
+    background-size: 100rem 30rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+//Intro
+
+.titre{
+    text-align: center;
+}
+
+.titre> img{
+    text-align: center;
+    width: 15rem;
+}
+
+//Ma biographie
+
+.biographie{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+//Mon parcour professionel
+
+.emperie> img{
+    width:400px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.emperie> h2{
+    //text-align: center;
+}
+
+.emperie{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.ynov> img{
+    width:400px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.ynov> h2{
+    width: 500px;
+    text-align: center;
+}
+
+.ynov{
+    background-color:white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.fnac> img{
+    width:400px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.fnac> h2{
+    width: 500px;
+    text-align: center;
+}
+
+.fnac{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.projet{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+//Blog
+
+
+
+//autre
+
+.none{
+    display: none;
+}
+
+.conteneurmenu{
+    border-radius:18px;
+    margin: 0rem 0rem 9rem 0rem;
+    height:3.2rem;
+    width:40rem;
+}
+
+.sous_menu_deroulant>a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    position: fixed;
+}
+
+.button{
+    width: 10px;
+}

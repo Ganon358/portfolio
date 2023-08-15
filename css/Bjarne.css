@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(42, 121, 108);
+    background-image: url("../img/fonddecran.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Bjarne> img{
