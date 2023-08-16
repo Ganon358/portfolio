@@ -5,7 +5,6 @@ body{
 }
 
 h1{
-    text-align: center;
     font-size: 2rem;
 }
 
@@ -15,7 +14,6 @@ h2{
 }
 
 h3{
-    text-align: center;
     font-size: 2rem;
 }
 
@@ -24,15 +22,28 @@ p{
     margin-left: 8rem;
     margin-right: 8rem;
 }
+img{
+    width: 30rem;
+}
 
 //Intro
 
 .titre{
+    color: white;
+}
+
+.titre>h1{
     text-align: center;
+    color: white;
+}
+
+.titre>h2{
+    text-align: center;
+    color: white;
 }
 
 .titre> img{
-    text-align: center;
+    margin-left: 40rem;
     width: 15rem;
 }
 
@@ -43,67 +54,148 @@ p{
     text-align: center;
 }
 
+.biographie>h2{
+    text-align: center;
+}
+
+.biographie>h3{
+    text-align: center;
+}
+
 //Mon parcour professionel
 
-.emperie> img{
-    width:400px;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.emperie> h2{
-    //text-align: center;
-}
-
-.emperie{
-    background-color: white;
-    width: 500px;
-    border-radius: 10px;
-}
-
-.ynov> img{
-    width:400px;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.ynov> h2{
-    width: 500px;
-    text-align: center;
-}
-
-.ynov{
-    background-color:white;
-    width: 500px;
-    border-radius: 10px;
-}
-
-.fnac> img{
-    width:400px;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.fnac> h2{
-    width: 500px;
-    text-align: center;
-}
-
-.fnac{
-    width: 500px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.projet{
+.projet1{
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
 }
 
+.projet2{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.emperie{
+    text-align: center;
+}
+
+.emperie> img{
+    
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+.ynov{
+    text-align: center;
+}
+
+.ynov> img{
+    
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.fnac{
+    text-align: center;
+}
+
+.fnac> img{
+    
+    margin-left: 25%;
+    margin-right: 25%;
+}
 //Blog
+.blog>h2{
+    text-align: center;
+}
 
+.blog1{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
 
+.blog2{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.bjarne{
+    text-align: center;
+}
+
+.bjarne>img{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.bjarne>a{
+    text-decoration: none;
+    color: black;
+}
+
+.stage{
+    text-align: center;
+}
+
+.stage>img{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.stage>a{
+    text-decoration: none;
+    color: black;
+}
+
+.ombre{
+    text-align: center;
+}
+
+.ombre>img{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.ombre>a{
+    text-decoration: none;
+    color: black;
+}
+
+.http{
+    text-align: center;
+}
+
+.http>img{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.http>a{
+    text-decoration: none;
+    color: black;
+}
+
+.python{
+    text-align: center;
+}
+
+.python>img{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.python>a{
+    text-decoration: none;
+    color: black;
+}
 
 //autre
 
