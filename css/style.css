@@ -1,6 +1,6 @@
-body{
+/* body{
     
-}
+} */
 
 h1{
     font-size: 2rem;
@@ -32,9 +32,6 @@ p{
         font-size: 0,5rem;
     }
 }
-img{
-    width: 30rem;
-}
 
 /* Intro */
 
@@ -57,7 +54,7 @@ img{
     color: white;
 }
 
-.titre> img{
+.titre img{
     margin-left: 40rem;
     width: 15rem;
 }
@@ -103,12 +100,32 @@ img{
     text-align: center;
 }
 
+.emperie img{
+    width: 30rem;
+}
+
 .ynov{
     text-align: center;
 }
 
+.ynov img{
+    width: 15rem;
+}
+
 .fnac{
     text-align: center;
+}
+
+.fnac img{
+    width: 11.5rem;
+}
+
+.esterel{
+    text-align: center;
+}
+
+.esterel img{
+    width: 30rem;
 }
 
 /* Blog */
@@ -146,6 +163,10 @@ img{
     color: black;
 }
 
+.bjarne img{
+    width: 30rem;
+}
+
 .stage{
     text-align: center;
 }
@@ -153,6 +174,10 @@ img{
 .stage>a{
     text-decoration: none;
     color: black;
+}
+
+.stage img{
+    width: 30rem;
 }
 
 .ombre{
@@ -164,6 +189,10 @@ img{
     color: black;
 }
 
+.ombre img{
+    width: 30rem;
+}
+
 .http{
     text-align: center;
 }
@@ -173,6 +202,10 @@ img{
     color: black;
 }
 
+.http img{
+    width: 30rem;
+}
+
 .python{
     text-align: center;
 }
@@ -180,6 +213,10 @@ img{
 .python>a{
     text-decoration: none;
     color: black;
+}
+
+.python img{
+    width: 30rem;
 }
 
 /* autre */
