@@ -1,46 +1,39 @@
+body{
+    background-image: url("../img/fonddecran.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre{
+    text-align: center;
+}
+
+.Bjarne{
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Bjarne> img{
     width:400px;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .Bjarne> h2{
     width: 500px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.Bjarne>h1{
     text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
 }
-
-.Bjarne{
-    width: 500px;
-    background-color: white;
-    border-radius: 10px;
-}
-
 .Bjarne>p{
-    text-align: center;
-}
-
-.Bjarne{
-    text-decoration: none;
-}
-
-.blog{
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-}
-
-.blog>a{
-    text-decoration: none;
-    color: black;
-}
-
-.blog2{
-    display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-}
-
-.blog2>a{
-    text-decoration: none;
-    color: black;
+    margin-left: 10px;
+    font-size: 30px;
 }

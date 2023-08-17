@@ -4,33 +4,21 @@
 
 h1{
     font-size: 2rem;
-    @media (max-width: 200px) {
-        font-size: 0,5rem;
-    }
 }
 
 h2{
     text-align: center;
     font-size: 2rem;
-    @media (max-width: 200px) {
-        font-size: 0,5rem;
-    }
 }
 
 h3{
     font-size: 2rem;
-    @media (max-width: 200px) {
-        font-size: 0,5rem;
-    }
 }
 
 p{
     font-size: 2rem;
     margin-left: 8rem;
     margin-right: 8rem;
-    @media (max-width: 200px) {
-        font-size: 0,5rem;
-    }
 }
 
 /* Intro */
@@ -42,6 +30,8 @@ p{
     /* background-position: cover; */
     background-size: cover;
     color: white;
+    text-align: center;
+    margin-top: 10rem;
 }
 
 .titre>h1{
@@ -55,7 +45,7 @@ p{
 }
 
 .titre img{
-    margin-left: 40rem;
+    display: flex;
     width: 15rem;
 }
 
@@ -80,20 +70,12 @@ p{
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
-    @media (max-width: 200px) {
-        display: flex;
-        align-items: baseline;
-    }
 }
 
 .projet2{
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
-    @media (max-width: 200px) {
-        display: flex;
-        align-items: baseline;
-    }
 }
 
 .emperie{
@@ -138,20 +120,11 @@ p{
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
-    @media (max-width: 200px) {
-        display: flex;
-        align-items: baseline;
-    }
 }
-
 .blog2{
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
-    @media (max-width: 200px) {
-        display: flex;
-        align-items: baseline;
-    }
 }
 
 .bjarne{
@@ -243,4 +216,90 @@ p{
 
 .button{
     width: 10px;
+}
+
+@media (min-width: 200px) and (max-width: 1000px){
+    .titre{
+        color:black;
+    }
+    .titre img{
+        width: 7.5rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    /* Mon parcour professionel */
+
+    .projet1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projet2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emperie img{
+        width: 15rem;
+    }
+
+    .ynov img{
+        width: 7.5rem;
+    }
+
+    .esterel img{
+        width: 15rem;
+    }
+
+    .fnac img{
+        width: 5.75rem;
+    }
+    
+    /* Mes blog */
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog2{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bjarne img{
+        width: 15rem;
+    }
+
+    .stage img{
+        width: 15rem;
+    }
+
+    .http img{
+        width: 15rem;
+    }
+
+    .python img{
+        width: 15rem;
+    }
+
+    .ombre img{
+        width: 15rem;
+    }
 }
