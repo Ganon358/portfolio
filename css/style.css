@@ -38,7 +38,7 @@ img{
     width: 30rem;
 }
 
-//Intro
+/* Intro */
 
 .titre{
     color: white;
@@ -59,7 +59,7 @@ img{
     width: 15rem;
 }
 
-//Ma biographie
+/* Ma biographie */
 
 .biographie{
     margin-top: 10rem;
@@ -74,7 +74,7 @@ img{
     text-align: center;
 }
 
-//Mon parcour professionel
+/* Mon parcour professionel */
 
 .projet1{
     display: flex;
@@ -107,7 +107,9 @@ img{
 .fnac{
     text-align: center;
 }
-//Blog
+
+/* Blog */
+
 .blog>h2{
     text-align: center;
 }
@@ -177,7 +179,7 @@ img{
     color: black;
 }
 
-//autre
+/* autre */
 
 .none{
     display: none;
