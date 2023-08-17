@@ -2,6 +2,8 @@ body{
     background-image: url("../img/fonddecran.png");
     background-repeat: no-repeat;
     background-size: 100rem 30rem;
+    /* background-position: cover; */
+    background-size: cover;
 }
 
 h1{
