@@ -9,7 +9,7 @@ body{
 }
 
 .Bjarne{
-    width: 1000px;
+    width: 60rem;
     background-color: white;
     border-radius: 10px;
     margin-left: auto;
@@ -17,30 +17,29 @@ body{
 }
 
 .Bjarne> img{
-    width:400px;
+    width:30rem;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .Bjarne> h2{
-    width: 500px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .Bjarne>h1{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .Bjarne>p{
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
 .stage{
-    width: 1000px;
+    width: 60rem;
     background-color: white;
     border-radius: 10px;
     margin-left: auto;
@@ -48,30 +47,29 @@ body{
 }
 
 .stage> img{
-    width:400px;
+    width:30rem;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .stage> h2{
-    width: 500px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .stage>h1{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .stage>p{
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
 .python{
-    width: 1000px;
+    width: 60rem;
     background-color: white;
     border-radius: 10px;
     margin-left: auto;
@@ -79,30 +77,29 @@ body{
 }
 
 .python> img{
-    width:400px;
+    width:30rem;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .python> h2{
-    width: 500px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .python>h1{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .python>p{
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
 .http{
-    width: 1000px;
+    width: 60rem;
     background-color: white;
     border-radius: 10px;
     margin-left: auto;
@@ -110,30 +107,29 @@ body{
 }
 
 .http> img{
-    width:400px;
+    width:30rem;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .http> h2{
-    width: 500px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .http>h1{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .http>p{
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
 .ombre{
-    width: 1000px;
+    width: 60rem;
     background-color: white;
     border-radius: 10px;
     margin-left: auto;
@@ -141,23 +137,130 @@ body{
 }
 
 .ombre> img{
-    width:400px;
+    width:30rem;
     margin-left: 25%;
     margin-right: 25%;
 }
 
 .ombre> h2{
-    width: 500px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .ombre>h1{
     text-align: center;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .ombre>p{
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 2rem;
+}
+
+
+@media (min-width: 200px) and (max-width: 1000px){
+
+    .Bjarne{
+        width: 20rem;
+    }
+
+    .Bjarne h1{
+        font-size: 1rem;
+    }
+
+    .Bjarne h2{
+        font-size: 1rem;
+    }
+
+    .Bjarne p{
+        font-size: 1rem;
+    }
+
+    .Bjarne img{
+        width: 10rem;
+    }
+
+
+    .stage{
+        width: 20rem;
+    }
+
+    .stage h1{
+        font-size: 1rem;
+    }
+
+    .stage h2{
+        font-size: 1rem;
+    }
+
+    .stage p{
+        font-size: 1rem;
+    }
+
+    .stage img{
+        width: 10rem;
+    }
+
+
+    .http{
+        width: 20rem;
+    }
+
+    .http h1{
+        font-size: 1rem;
+    }
+
+    .http h2{
+        font-size: 1rem;
+    }
+
+    .http p{
+        font-size: 1rem;
+    }
+
+    .http img{
+        width: 10rem;
+    }
+
+
+    .ombre{
+        width: 20rem;
+    }
+
+    .ombre h1{
+        font-size: 1rem;
+    }
+
+    .ombre h2{
+        font-size: 1rem;
+    }
+
+    .ombre p{
+        font-size: 1rem;
+    }
+
+    .ombre img{
+        width: 10rem;
+    }
+
+
+    .python{
+        width: 20rem;
+    }
+
+    .python h1{
+        font-size: 1rem;
+    }
+
+    .python h2{
+        font-size: 1rem;
+    }
+
+    .python p{
+        font-size: 1rem;
+    }
+
+    .python img{
+        width: 10rem;
+    }
 }
