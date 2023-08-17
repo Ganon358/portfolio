@@ -31,12 +31,12 @@ p{
     background-size: cover;
     color: white;
     text-align: center;
-    margin-top: 10rem;
 }
 
 .titre>h1{
     text-align: center;
     color: white;
+    margin-top: 10rem;
 }
 
 .titre>h2{
@@ -96,6 +96,7 @@ p{
 
 .fnac{
     text-align: center;
+    margin-left: 9rem;
 }
 
 .fnac img{
@@ -263,6 +264,10 @@ p{
 
     .esterel img{
         width: 15rem;
+    }
+
+    .fnac{
+        margin-left: 0rem;
     }
 
     .fnac img{
