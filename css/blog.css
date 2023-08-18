@@ -18,8 +18,6 @@ body{
 
 .Bjarne> img{
     width:30rem;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 .Bjarne> h2{
@@ -161,7 +159,7 @@ body{
 @media (min-width: 200px) and (max-width: 1000px){
 
     .Bjarne{
-        width: 20rem;
+        width: 15rem;
     }
 
     .Bjarne h1{
@@ -182,7 +180,7 @@ body{
 
 
     .stage{
-        width: 20rem;
+        width: 15rem;
     }
 
     .stage h1{
@@ -203,7 +201,7 @@ body{
 
 
     .http{
-        width: 20rem;
+        width: 15rem;
     }
 
     .http h1{
@@ -224,7 +222,7 @@ body{
 
 
     .ombre{
-        width: 20rem;
+        width: 15rem;
     }
 
     .ombre h1{
@@ -245,7 +243,7 @@ body{
 
 
     .python{
-        width: 20rem;
+        width: 15rem;
     }
 
     .python h1{
