@@ -26,6 +26,11 @@ p{
     font-size: 2rem;
 }
 
+.gras2{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 /* Intro */
 
 .titre{
@@ -288,6 +293,11 @@ p{
 
     .gras{
         font-size: 1rem;
+    }
+
+    .gras2{
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 
     .titre{
