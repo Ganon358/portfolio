@@ -8,7 +8,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h3{
@@ -19,6 +19,11 @@ p{
     font-size: 2rem;
     margin-left: 8rem;
     margin-right: 8rem;
+}
+
+.gras{
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 /* Intro */
@@ -35,12 +40,6 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.titre>h1{
-    text-align: center;
-    color: white;
-    margin-top: 10rem;
 }
 
 .titre>h2{
@@ -233,6 +232,32 @@ p{
     width: 30rem;
 }
 
+/* contact */
+
+.contact{
+    background-image: url("../img/Fuji.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100rem 30rem; */
+    background-size: cover;
+    margin-top: 10rem;
+    height: 40rem;
+}
+
+.contact h2{
+    margin-top: 5rem;
+}
+
+.contact img{
+    width: 3rem;
+    margin-top: 2rem;
+}
+
+.coordonée{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
 /* autre */
 
 .none{
@@ -260,6 +285,11 @@ p{
 }
 
 @media (min-width: 200px) and (max-width: 1000px){
+
+    .gras{
+        font-size: 1rem;
+    }
+
     .titre{
         color:black;
     }
@@ -271,7 +301,7 @@ p{
     }
 
     h2{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     h3{
@@ -360,4 +390,11 @@ p{
     .stage2 img{
         width: 15rem;
     }
+
+    /* contact */
+
+    .contact img{
+        width: 1.5rem;
+    }
+
 }

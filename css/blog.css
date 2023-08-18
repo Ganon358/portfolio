@@ -17,6 +17,8 @@ body{
 }
 
 .Bjarne> img{
+    display: flex;
+    text-align: center;
     width:30rem;
 }
 
