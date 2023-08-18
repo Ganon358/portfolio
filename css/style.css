@@ -320,8 +320,13 @@ p{
 
     p{
         font-size: 1rem;
-        margin-left: 4rem;
-        margin-right: 4rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .bio{
+        display: flex;
+        flex-direction: column;
     }
 
     /* Mon parcour professionel */
