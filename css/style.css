@@ -46,8 +46,7 @@ p{
   
   .nav > .nav-links {
     display: inline;
-    margin-left: 3rem;
-    /* float: right; */
+    margin-left: 10rem;
     font-size: 2rem;
   }
   
@@ -127,8 +126,6 @@ p{
     display: flex;
     background-image: url("../img/Route.png");
     background-repeat: no-repeat;
-    background-size: 100rem 30rem;
-    /* background-position: cover; */
     background-size: cover;
     color: white;
     text-align: center;
@@ -380,8 +377,9 @@ p{
 
 @media (min-width: 200px) and (max-width: 1000px){
 
+
     .nav{
-        width: 5rem;
+        height: 5rem;
     }
 
     .nav > .nav-header > .nav-title {
@@ -389,7 +387,8 @@ p{
     }
 
     .nav > .nav-links {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-left: 1rem;
     }
 
     .gras{
@@ -510,7 +509,7 @@ p{
     /* contact */
 
     .contact{
-        height: 14rem;
+        height: 18rem;
     }
 
     .contact img{
@@ -518,5 +517,3 @@ p{
     }
 
 }
-
-/* test */
