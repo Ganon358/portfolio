@@ -55,6 +55,7 @@ p{
 .titre img{
     display: flex;
     width: 15rem;
+    margin-top: 10rem;
 }
 
 /* Ma biographie */

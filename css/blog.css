@@ -160,6 +160,38 @@ body{
 }
 
 
+.Esterel{
+    width: 60rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Esterel> img{
+    display: flex;
+    text-align: center;
+    width:30rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.Esterel> h2{
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.Esterel>h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.Esterel>p{
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+
 @media (min-width: 200px) and (max-width: 1000px){
 
     .Bjarne{
@@ -263,6 +295,27 @@ body{
     }
 
     .python img{
+        width: 10rem;
+    }
+
+
+    .Esterel{
+        width: 15rem;
+    }
+
+    .Esterel h1{
+        font-size: 1rem;
+    }
+
+    .Esterel h2{
+        font-size: 1rem;
+    }
+
+    .Esterel p{
+        font-size: 1rem;
+    }
+
+    .Esterel img{
         width: 10rem;
     }
 }
