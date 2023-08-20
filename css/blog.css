@@ -195,127 +195,127 @@ body{
 @media (min-width: 200px) and (max-width: 1000px){
 
     .Bjarne{
-        width: 15rem;
+        width: 40rem;
     }
 
     .Bjarne h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Bjarne h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Bjarne p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Bjarne img{
-        width: 10rem;
+        width: 20rem;
     }
 
 
     .stage{
-        width: 15rem;
+        width: 40rem;
     }
 
     .stage h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .stage h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .stage p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .stage img{
-        width: 10rem;
+        width: 20rem;
     }
 
 
     .http{
-        width: 15rem;
+        width: 40rem;
     }
 
     .http h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .http h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .http p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .http img{
-        width: 10rem;
+        width: 20rem;
     }
 
 
     .ombre{
-        width: 15rem;
+        width: 40rem;
     }
 
     .ombre h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .ombre h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .ombre p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .ombre img{
-        width: 10rem;
+        width: 20rem;
     }
 
 
     .python{
-        width: 15rem;
+        width: 40rem;
     }
 
     .python h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .python h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .python p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .python img{
-        width: 10rem;
+        width: 20rem;
     }
 
 
     .Esterel{
-        width: 15rem;
+        width: 40rem;
     }
 
     .Esterel h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Esterel h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Esterel p{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Esterel img{
-        width: 10rem;
+        width: 20rem;
     }
 }
