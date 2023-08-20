@@ -46,7 +46,8 @@ p{
   
   .nav > .nav-links {
     display: inline;
-    float: right;
+    margin-left: 3rem;
+    /* float: right; */
     font-size: 18px;
   }
   
@@ -395,19 +396,19 @@ p{
         width: 7.5rem;
     }
     h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     h2{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     h3{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     p{
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-left: 3rem;
         margin-right: 3rem;
     }
